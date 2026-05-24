@@ -89,7 +89,7 @@ python unet_brain_tumor_segmentation.py --data_dir "path/to/BraTS2020 2D Multich
 | Argument | Default | Description |
 |----------|---------|-------------|
 | `--data_dir` | `BraTS2020 2D Multichannel` | Path to dataset directory |
-| `--epochs` | `100` | Number of training epochs |
+| `--epochs` | `200` | Number of training epochs |
 | `--batch_size` | `16` | Batch size |
 | `--lr` | `1e-4` | Learning rate |
 | `--pos_weight` | `5.0` | Positive class weight for BCE loss |
