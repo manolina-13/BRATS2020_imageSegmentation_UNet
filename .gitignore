@@ -1,0 +1,31 @@
+# Dataset (too large for GitHub - download from Kaggle)
+BraTS2020 2D Multichannel/
+*.zip
+
+# Model checkpoints
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old/duplicate files
+unet_image_segmentation (2).py
+Segmentation_Unet.py
+dataset.py
+see_mask_labels.py
+UNet_image_segmentation.ipynb
