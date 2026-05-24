@@ -1,6 +1,6 @@
 # U-Net Brain Tumor Segmentation (BraTS2020)
 
-A PyTorch implementation of **U-Net** for **binary brain tumor segmentation** on the BraTS2020 2D Multichannel dataset.
+This project implements a **U-Net deep learning model in PyTorch** for medical image segmentation, specifically targeting brain tumor detection using 2D MRI slices from the **BraTS2020 dataset**. The model is trained to perform binary segmentation—differentiating tumor regions from healthy brain tissue. To handle the highly imbalanced nature of medical images (where tumors are often very small), it utilizes class-weighted Binary Cross-Entropy (BCE) loss. The end-to-end pipeline includes custom data loading, dynamic learning rate scheduling, model checkpointing, and evaluation using the **Dice Coefficient** to accurately measure the overlap between the model's predictions and expert-ground truth masks.
 
 ## Results
 
